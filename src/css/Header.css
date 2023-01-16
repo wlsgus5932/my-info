@@ -1,0 +1,62 @@
+.Header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3%;
+    padding-top: 10px;
+}
+
+.hoisting-section {
+    animation: fadein 5s;
+}
+
+.blue-text {
+    color: #3482b9;
+}
+
+.remark-text {
+    color: #6a9955;
+}
+
+.remark-text-cursor {
+    color: #6a9955;
+    cursor: pointer;
+}
+
+.sky-blue-text {
+    color: #69cdfb;
+}
+
+.white-text {
+    color: white;
+}
+
+.last-text {
+    color: white;
+    font-size: 30px;
+    padding-right: 300px;
+}
+
+.brown-text {
+    color: #be795c;
+}
+
+.cursor {
+    color: white;
+    font-weight: 100;
+    animation: blink-effect 1s step-end infinite;
+}
+
+.remark {
+    color: #6a9955;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+  }

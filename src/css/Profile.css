@@ -1,0 +1,70 @@
+.profile-introduce {
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-profile {
+    animation: fadein 2s;
+    margin-left: 10%;
+}
+
+.my-info {
+    animation: fadein 5s;
+    margin-left: 5%;
+}
+
+.hoisting-section {
+    animation: fadein 5s;
+}
+
+.blue-text {
+    color: #3482b9;
+}
+
+.remark-text {
+    color: #6a9955;
+}
+
+.sky-blue-text {
+    color: #69cdfb;
+}
+
+.white-text {
+    color: white;
+}
+
+.last-text {
+    color: white;
+    font-size: 30px;
+    padding-right: 300px;
+}
+
+.brown-text {
+    color: #be795c;
+}
+
+.cursor {
+    color: white;
+    font-weight: 100;
+    animation: blink-effect 1s step-end infinite;
+}
+
+.remark {
+    color: #6a9955;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+  }

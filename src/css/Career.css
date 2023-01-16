@@ -1,0 +1,27 @@
+.section1 {
+    width:30%;
+    height: 200px;
+    margin: 30px 10px 10px 5%;
+    border: 1px solid #eee;
+}
+.section2 {
+    width:30%;
+    height: 200px;
+    margin: 30px 10px 10px 10px;
+    border: 1px solid #eee;
+
+}
+.section3 {
+    width:30%;
+    height: 200px;
+    margin: 30px 10px 10px 10px;
+    border: 1px solid #eee;
+
+}
+.Career {
+    display: flex;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    color: #eee;
+}
