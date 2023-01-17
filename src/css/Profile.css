@@ -1,6 +1,6 @@
 .profile-introduce {
-    padding-top: 10vw;
-    font-size: 1rem;
+    padding-top: 20vw;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 3vw;
     align-items: center;
@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 .profile-title {
-    margin-left: 7vw;
+    margin-left: 8vw;
 }
 
 .my-profile {
@@ -39,12 +39,6 @@
 
 .white-text {
     color: white;
-}
-
-.last-text {
-    color: white;
-    font-size: 30px;
-    padding-right: 300px;
 }
 
 .brown-text {

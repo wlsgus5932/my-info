@@ -56,8 +56,8 @@ const Profile = ({parent}) => {
                         </span>
                     </span><br/>
                 </div>
-                 <span className='last-text'>
-                    <span>{'};'}</span>
+                 <span className='white-text'>
+                    {'};'}
                 </span><br/><br/>
                 
                 <section className='hoisting-section'>
