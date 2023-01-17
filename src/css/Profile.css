@@ -1,6 +1,6 @@
 .profile-introduce {
-    padding-top: 20vw;
-    font-size: 3rem;
+    padding-top: 17vw;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 40px;
     align-items: center;
@@ -54,6 +54,7 @@
 
 .remark {
     color: #6a9955;
+    font-size: 2rem;
 }
 
 @keyframes fadein {

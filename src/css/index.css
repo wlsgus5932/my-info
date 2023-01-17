@@ -14,10 +14,11 @@ body { font-size: 1em;}
 }
 
 @media (min-width: 500px) {
-    html { font-size: 80%; }
+    html { font-size: 60%; }
 }
 
 @media (min-width: 700px) {
+  html { font-size: 80%; }
 }
 
 @media (min-width: 1200px) {

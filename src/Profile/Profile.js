@@ -24,7 +24,7 @@ const Profile = ({parent}) => {
         <div className='profile-introduce'>
             {render ? '' : (
             <div className='profile-title'>
-                <span className="remark-text" >{ Text }</span>
+                <span className="remark" >{ Text }</span>
             </div>
             )}
             {render ? (
