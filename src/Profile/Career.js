@@ -15,7 +15,7 @@ const Career = () => {
           <FontAwesomeIcon icon={faSquareInstagram} />
           <FontAwesomeIcon icon={faGithub} />
         몰라</section>
-    </div>
+    </div> 
   );
 }
 
