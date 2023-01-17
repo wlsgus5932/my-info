@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import '../css/Profile.css';
 
 const Profile = ({parent}) => {
-    const txt = "/* 안녕하세요. 방문해주셔서 감사해요. */";
+    const txt = "/* 안녕하세요 방문해주셔서 감사해요 */";
     const [Text, setText] = useState('');
     const [Count, setCount] = useState(0);
     const [render, setRender] = useState(false);
@@ -22,7 +22,9 @@ const Profile = ({parent}) => {
       
     return (
         <div className='profile-introduce'>
-            <span className="remark" >{ Text }</span>
+            <div className='profile-title'>
+                <span className="remark" >{ Text }</span>
+            </div>
             {render ? (
             <section className='my-profile'>
                 <span className='blue-text'>const 
@@ -49,7 +51,7 @@ const Profile = ({parent}) => {
                     </span><br/>
                     <span className='sky-blue-text'> job : 
                         <span className='white-text'>{' ['} 
-                            <span className='brown-text'>{" 'developer '"}</span>
+                            <span className='brown-text'>{" 'developer'"}</span>
                             <span className='white-text'>{']'}</span>
                         </span>
                     </span><br/>
@@ -59,7 +61,7 @@ const Profile = ({parent}) => {
                 </span><br/><br/>
                 
                 <section className='hoisting-section'>
-                    <span className='remark-text'>{" //중요"}</span><br/>
+                    {/* <span className='remark-text'>{" //중요"}</span><br/> */}
                     <span className='sky-blue-text'> ParkJinHyun.awesome  
                         <span className='white-text'>{' = '} 
                             <span className='brown-text'>{" true;"}</span>

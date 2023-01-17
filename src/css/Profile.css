@@ -7,10 +7,13 @@
     display: flex;
     flex-direction: column;
 }
+.profile-title {
+    margin-left: 7vw;
+}
 
 .my-profile {
     animation: fadein 2s;
-    margin-left: 10%;
+    margin-left: 15vw;
 }
 
 .my-info {

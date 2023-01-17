@@ -1,14 +1,17 @@
 .App {
   background-image: url('../../public/images/background.png');
-  min-height: 2000px;
+  min-height: 350vh;
   background-attachment: fixed;
   align-items: center;
   background-size: cover;
+  
 }
 
 .remark-text {
   color: #6a9955;
 }
+
+
 
 
 

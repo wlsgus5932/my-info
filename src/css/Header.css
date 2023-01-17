@@ -1,7 +1,7 @@
 .Header {
     font-size: 20px;
     font-weight: bold;
-    margin-left: 3%;
+    margin-left: 4%;
     padding-top: 10px;
 }
 
@@ -15,7 +15,7 @@
 
 .remark-text {
     color: #6a9955;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .remark-text-cursor {
