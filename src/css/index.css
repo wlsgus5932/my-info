@@ -9,23 +9,23 @@ body {
 
 /* html { font-size: 62.5%; } */
 @media (min-width: 1281px) {
-  html { font-size: 100%; }
+  html { font-size: 90%; }
 }
   
 @media (min-width: 1025px) and (max-width: 1280px) {
-  html { font-size: 90%; }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
   html { font-size: 80%; }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   html { font-size: 70%; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  html { font-size: 60%; }
 }
   
 @media (min-width: 1px) and (max-width: 480px) {
-  html { font-size: 60%; }
+  html { font-size: 50%; }
 }
 
 code {
