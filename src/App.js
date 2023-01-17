@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="App">
       <div>
-        <Header/>
+        {/* <Header/> */}
           <Profile parent={parentFunction}/>
       </div>
       <div>

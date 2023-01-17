@@ -1,19 +1,21 @@
 .profile-introduce {
     padding-top: 20vw;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    line-height: 3vw;
+    line-height: 40px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 837px;
+    justify-content: center;
 }
 .profile-title {
-    margin-left: 8vw;
+    /* margin-left: 3vw; */
 }
 
 .my-profile {
     animation: fadein 2s;
-    margin-left: 15vw;
+    display: inline-block;
 }
 
 .my-info {

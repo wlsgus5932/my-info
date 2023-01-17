@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import '../css/Profile.css';
 
 const Profile = ({parent}) => {
-    const txt = "/* 안녕하세요 방문해주셔서 감사해요 */";
+    const txt = "const ParkJinHyun = (e) => {";
     const [Text, setText] = useState('');
     const [Count, setCount] = useState(0);
     const [render, setRender] = useState(false);
@@ -22,14 +22,16 @@ const Profile = ({parent}) => {
       
     return (
         <div className='profile-introduce'>
+            {render ? '' : (
             <div className='profile-title'>
-                <span className="remark" >{ Text }</span>
+                <span className="remark-text" >{ Text }</span>
             </div>
+            )}
             {render ? (
             <section className='my-profile'>
                 <span className='blue-text'>const 
                     <span className='sky-blue-text'> ParkJinHyun </span>
-                    <span className='white-text'>{'= (val) => {'}</span>
+                    <span className='white-text'>{'= (e) => {'}</span>
                 </span>
                 <div className='my-info'>
                     <span className='sky-blue-text'> name : 
