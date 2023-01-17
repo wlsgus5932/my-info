@@ -11,14 +11,15 @@ html { font-size: 62.5%; }
 body { font-size: 1em;}
 
 @media (max-width: 300px) {
+  html { font-size: 30%; }
 }
 
 @media (min-width: 500px) {
-    html { font-size: 60%; }
+    html { font-size: 40%; }
 }
 
 @media (min-width: 700px) {
-  html { font-size: 80%; }
+  html { font-size: 60%; }
 }
 
 @media (min-width: 1200px) {
