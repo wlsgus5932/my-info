@@ -28,3 +28,7 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+@media (min-width: 1px) and (max-width: 480px) {
+    .profile-introduce { font-size: 70%; }
+}
