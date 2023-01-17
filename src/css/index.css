@@ -9,14 +9,33 @@ body {
 
 /* html { font-size: 62.5%; } */
 
+@media (min-width: 576px) {
+  html { font-size: 50%; }
+}
 
+/* Tablet */
+@media (min-width: 768px) {
+  html { font-size: 60%; }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  html { font-size: 70%; }
+}
+
+/* Desktop (Large) */
+@media (min-width: 1200px) {
+  html { font-size: 80%; }
+}
+
+/* 
 @media (max-width: 700px) {
   html { font-size: 60%; }
 }
 
 @media (max-width: 1200px) {
   html { font-size: 80%; }
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

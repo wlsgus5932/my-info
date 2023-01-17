@@ -4,9 +4,9 @@ import '../css/Career.css';
 const Career = () => {
   return (
     <div className="Career">
-        <section className='section1'>준비중</section>
-        <section className='section2'>준비중</section>
-        <section className='section3'>준비중</section>
+        <section className='section1'>개발중</section>
+        <section className='section2'>개발중</section>
+        <section className='section3'>개발중</section>
     </div>
   );
 }
