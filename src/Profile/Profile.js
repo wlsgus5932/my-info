@@ -1,4 +1,6 @@
 import {useState, useEffect} from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import '../css/Profile.css';
 
@@ -40,14 +42,14 @@ const Profile = ({parent}) => {
                         </span>
                     </span> <br/>
                     <span className='sky-blue-text'> birth_year : 
-                        <span className='brown-text'>{' "930626"'} 
+                        <span className='mint-text'>{' "930626"'} 
                             <span className='white-text'>{', '}</span>
                         </span>
                     </span> <br/>
                     <span className='sky-blue-text'> skills : 
                         <span className='white-text'>{' ['} 
-                            <span className='brown-text'>{" 'HTML', 'CSS', 'JavaScript',"}</span><br/>
-                            <span className='brown-text'>{" 'React.js', 'Vue.js', 'Spring', 'SpringBoot'"}</span>
+                            <span className='brown-text'>{"'HTML', 'CSS', 'JavaScript',"}</span><br/>
+                            <span className='brown-text'>{"'React', 'Vue', 'Spring', 'SpringBoot'"}</span>
                             <span className='white-text'>{' ],'}</span>
                         </span>
                     </span><br/>
@@ -70,6 +72,8 @@ const Profile = ({parent}) => {
                             <span className="cursor">|</span>
                         </span>
                     </span><br/><br/>
+                    {/* <FontAwesomeIcon icon={faSquareInstagram} /> */}
+                    
                     <span className='remark-text'>{" //더 알고 싶어요!!!"}</span>
                     <a className='remark-text' onClick={parent}>{" click▼"}</a>
 

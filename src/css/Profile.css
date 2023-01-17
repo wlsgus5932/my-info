@@ -16,6 +16,10 @@
     display: inline-block;
 }
 
+.mint-text {
+    color: #99ce9b;
+}
+
 @media (min-width: 1px) and (max-width: 480px) {
     .profile-introduce { padding-top: 50%; }
 }
