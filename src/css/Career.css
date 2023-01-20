@@ -1,24 +1,43 @@
 .Career {
     display: flex;
+    align-items: center;
+    text-align: center;
     display: flex;
     width: 100%;
     color: #eee;
     font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
     justify-content: center;
-    margin-top: 100px;
-    font-family: "ChosunGu";
-    font-weight: 500px;
+    margin-top: 30%;
 }
 
 .section1 {
     margin: 30px 10px 10px 5%;
-    width: 70%;
+    border: 1px solid #eee;
+    width: 30%;
+    height: 300px;
+    animation: fadein 2s;
+}
+.section2 {
+    width:30%;
+    height: 300px;
+    margin: 30px 10px 10px 10px;
+    border: 1px solid #eee;
+    animation: fadein 3s;
+
+}
+.section3 {
+    width:30%;
+    height: 300px;
+    margin: 30px 10px 10px 10px;
+    border: 1px solid #eee;
+    animation: fadein 4s;
 }
 
-.career-remark-text {
-    color: #6a9955;
-    font-size: 50px;
-    text-align: left;
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
 }
 
 
@@ -27,5 +46,6 @@
     .section1 { 
         width: 70%;
         height: 300px;
+        
     }
 }

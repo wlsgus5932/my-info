@@ -2,7 +2,7 @@
   background-image: url('../../public/images/background.png');
   
   position:relative; 
-  height: 100vh;
+  min-height: 110vh;
   background-attachment: fixed;
   align-items: center;
   background-size: cover;
