@@ -6,16 +6,13 @@
 
 .my-profile {
     animation: fadein 2s;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
+    width: 35vh;
+    margin: auto;
 }
 
 .profile-title {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-
+    width: 35vh;
+    margin: auto;
 }
 
 .mint-text {
@@ -45,7 +42,6 @@
 
 .my-info {
     animation: fadein 5s;
-    width: 800px;
     margin-left: 15px;
 }
 
