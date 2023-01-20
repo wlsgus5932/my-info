@@ -181,6 +181,17 @@ ul > li > a {
     .mobile-git {
         background-color: black;
     }
+    ul > li {
+        list-style-type: none;
+        border: 1px solid #eee;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        float: left;
+        line-height: 20px;
+        font-size: 10px;
+        margin-right: 10px;
+    }
     
 }
 

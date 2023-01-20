@@ -90,7 +90,7 @@ const Profile = ({parent}) => {
                 </ul>
                 </div>
                 <div className='arrow-section'>
-                    <a><span></span><span></span></a>
+                    <a onClick={parent}><span></span><span></span></a>
                 </div>
             </div>
             ) : ''}
