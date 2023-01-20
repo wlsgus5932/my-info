@@ -16,12 +16,12 @@
     margin: 30px 10px 10px 5%;
     border: 1px solid #eee;
     width: 30%;
-    height: 300px;
+    height: 100px;
     animation: fadein 2s;
 }
 .section2 {
     width:30%;
-    height: 300px;
+    height: 100px;
     margin: 30px 10px 10px 10px;
     border: 1px solid #eee;
     animation: fadein 3s;
@@ -29,7 +29,7 @@
 }
 .section3 {
     width:30%;
-    height: 300px;
+    height: 100px;
     margin: 30px 10px 10px 10px;
     border: 1px solid #eee;
     animation: fadein 4s;

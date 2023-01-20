@@ -21,7 +21,7 @@ useEffect(() => {
 
 const handleScroll = () => {
 	// 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
-    if(window.scrollY >= 50){
+    if(window.scrollY >= 30){
       setScroll(true);
       parent();
     }
