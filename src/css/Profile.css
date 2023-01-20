@@ -64,7 +64,7 @@ a {
 }
 a span {
   position: absolute;
-  bottom: 15px;
+  bottom: 4%;
   left: 48%;
   width: 24px;
   height: 24px;
@@ -82,7 +82,7 @@ a span:nth-of-type(1) {
   animation-delay: 0s;
 }
 a span:nth-of-type(2) {
-  bottom: 27px;
+  bottom: 5%;
   -webkit-animation-delay: .15s;
   animation-delay: .15s;
 }
