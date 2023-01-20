@@ -49,8 +49,7 @@ const Profile = ({parent}) => {
                     </span> <br/>
                     <span className='sky-blue-text'> skills : 
                         <span className='white-text'>{' ['} 
-                            <span className='brown-text'>{"'HTML', 'CSS', 'JavaScript',"}</span><br/>
-                            <span className='brown-text'>{"'React', 'Vue', 'Spring', 'SpringBoot'"}</span>
+                            <span className='brown-text'>{"'HTML', 'CSS', 'JavaScript', 'React', 'Vue', 'Spring', 'SpringBoot'"}</span>
                             <span className='white-text'>{' ],'}</span>
                         </span>
                     </span><br/>
