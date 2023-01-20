@@ -75,15 +75,15 @@ const Profile = ({parent}) => {
                     </span><br/><br/>
                     {/* <span className='remark-text'>{" //더 알고 싶어요!!!"}</span> */}
                     {/* <a className='remark-text' onClick={parent}>{" click▼"}</a> */}
-                </section>
                 <ul className={changeClass}>
-                    <li onMouseEnter={() => setChangeClass('insta')}>
+                    <li onMouseEnter={() => setChangeClass('insta')} className="mobile-insta">
                         <a href='https://www.instagram.com/jinhyun.dev/' target={'_blank'}><FontAwesomeIcon icon={faInstagram}/></a>
                     </li>  
-                    <li onMouseEnter={() => setChangeClass('git')}>
+                    <li onMouseEnter={() => setChangeClass('git')} className="mobile-git">
                         <a href="https://github.com/wlsgus5932" target={'_blank'}><FontAwesomeIcon icon={faGithub}/></a>
                     </li>
                 </ul>
+                </section>
                 <div className='arrow-section'>
                     <a><span></span><span></span></a>
                 </div>
