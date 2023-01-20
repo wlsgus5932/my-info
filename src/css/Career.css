@@ -17,14 +17,14 @@
     border: 1px solid #eee;
     width: 30%;
     height: 100px;
-    animation: fadein 2s;
+    animation: fadein 9s;
 }
 .section2 {
     width:30%;
     height: 100px;
     margin: 30px 10px 10px 10px;
     border: 1px solid #eee;
-    animation: fadein 3s;
+    animation: fadein 9s;
 
 }
 .section3 {
@@ -32,7 +32,7 @@
     height: 100px;
     margin: 30px 10px 10px 10px;
     border: 1px solid #eee;
-    animation: fadein 4s;
+    animation: fadein 9s;
 }
 
 @keyframes fadein {
