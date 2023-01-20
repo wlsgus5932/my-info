@@ -37,7 +37,7 @@
 }
 
 .hoisting-section {
-    animation: fadein 5s;
+    animation: fadein 6s;
 }
 
 .blue-text {
@@ -82,28 +82,16 @@
     }
   }
 
-@keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        transform: translate3d(0, -100%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
-}
-
 
 a {
     text-decoration-line: none;
 }
 a span {
   position: absolute;
-  left: 50%;
   bottom: 5%;
+  left: 50%;
   width: 24px;
   height: 24px;
-  margin-left: -12px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: rotate(-45deg);
@@ -118,7 +106,7 @@ a span:nth-of-type(1) {
   animation-delay: 0s;
 }
 a span:nth-of-type(2) {
-    bottom: 7%;
+  bottom: 7%;
   -webkit-animation-delay: .15s;
   animation-delay: .15s;
 }
@@ -151,6 +139,7 @@ a span:nth-of-type(2) {
 
 ul {
     text-align: center;
+    animation: fadein 7s;
 }
 
 ul > li {
@@ -162,7 +151,7 @@ ul > li {
     float:left;
     line-height: 40px;
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 11%;
 }
 
 ul > li > a {
@@ -173,6 +162,7 @@ ul > li > a {
     font-size: 10px;
     color: #eee;
     cursor: pointer;
+    
 }
 
 .insta :hover {
