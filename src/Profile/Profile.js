@@ -85,6 +85,9 @@ const Profile = ({parent}) => {
                     <li onMouseEnter={() => setChangeClass('circle')} className="mobile-circle">
                     tech
                     </li>
+                    <li onMouseEnter={() => setChangeClass('circle2')} className="mobile-circle2">
+                    click
+                    </li>
                 </ul>
                 </section>
                 <div className='arrow-section'>
