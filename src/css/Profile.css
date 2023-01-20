@@ -24,6 +24,7 @@
     .profile-introduce { padding-top: 50%; }
 }
 
+
 .my-info {
     animation: fadein 5s;
     margin-left: 8%;
@@ -74,6 +75,96 @@
       opacity: 0;
     }
   }
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+
 a {
-    cursor: pointer;
+    text-decoration-line: none;
+}
+a span {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+a span:nth-of-type(2) {
+    bottom: 7%;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrow-section {
+    bottom: 0;
+}
+ul {
+    text-align: center;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 40px;
+}
+ul > li > a {
+    color: white;
+}
+
+.insta :hover {
+    background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
+}
+
+.git :hover {
+    background-color: black;
 }

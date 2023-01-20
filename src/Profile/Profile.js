@@ -1,20 +1,21 @@
 import {useState, useEffect} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faSquareInstagram, faGithub, faAngledown, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import '../css/Profile.css';
 
 const Profile = ({parent}) => {
-    const txt = "const ParkJinHyun = (e) => {";
+    const txt = "const ParkJinHyun = { ";
     const [Text, setText] = useState('');
     const [Count, setCount] = useState(0);
     const [render, setRender] = useState(false);
+    const [changeClass, setChangeClass] = useState('');
   
     useEffect(()=>{
         const interval = setInterval(() => {
             setText(Text + txt[Count]); // 이전 set한 문자 + 다음 문자
             setCount(Count + 1); // 개수 만큼 체크 
-        }, 130);
+        }, 140);
         if(Count === txt.length)  {  // Count를 따로 두지 않고 Text.length 체크도 가능
             clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다
             setRender(true);
@@ -33,7 +34,7 @@ const Profile = ({parent}) => {
             <section className='my-profile'>
                 <span className='blue-text'>const 
                     <span className='sky-blue-text'> ParkJinHyun </span>
-                    <span className='white-text'>{'= (e) => {'}</span>
+                    <span className='white-text'>{'= {'}</span>
                 </span>
                 <div className='my-info'>
                     <span className='sky-blue-text'> name : 
@@ -72,12 +73,20 @@ const Profile = ({parent}) => {
                             <span className="cursor">|</span>
                         </span>
                     </span><br/><br/>
-                    {/* <FontAwesomeIcon icon={faSquareInstagram} /> */}
-                    
-                    <span className='remark-text'>{" //더 알고 싶어요!!!"}</span>
-                    <a className='remark-text' onClick={parent}>{" click▼"}</a>
-
+                    {/* <span className='remark-text'>{" //더 알고 싶어요!!!"}</span> */}
+                    {/* <a className='remark-text' onClick={parent}>{" click▼"}</a> */}
                 </section>
+                <ul className={changeClass}>
+                    <li onMouseEnter={() => setChangeClass('insta')}>
+                        <a href='https://www.instagram.com/jinhyun.dev/' target={'_blank'}><FontAwesomeIcon icon={faInstagram}/></a>
+                    </li>  
+                    <li onMouseEnter={() => setChangeClass('git')}>
+                        <a href="https://github.com/wlsgus5932" target={'_blank'}><FontAwesomeIcon icon={faGithub}/></a>
+                    </li>
+                </ul>
+                <div className='arrow-section'>
+                    <a><span></span><span></span></a>
+                </div>
             </section>
             ) : ''}
             </div>
