@@ -19,6 +19,7 @@ const App = () => {
     // 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
       if(window.scrollY >= 50){
         setScroll(true);
+        arrowChange(false);
       }
     };
   const arrowFunction = () => {
@@ -30,11 +31,11 @@ const App = () => {
         {/* <Header/> */}
           <Profile arrow={arrowFunction}/>
       </div>
-      { arrowChange ? (
       <div className='arrow-section'>
+      { arrowChange ? (
           <a><span></span><span></span></a>
+          ) : ''}
       </div>
-      ) : ''}
       <div className='career-div'>
         {scroll ? 
           (<Career/>) : ''
