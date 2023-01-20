@@ -5,29 +5,30 @@
     display: flex;
     width: 100%;
     color: #eee;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
     justify-content: center;
     animation: fadein 7s;
+    
 }
 
 .section1 {
     margin: 30px 10px 10px 5%;
     border: 1px solid #eee;
     width: 30%;
-    height: 100px;
+    height: 200px;
 }
 .section2 {
     width:30%;
-    height: 100px;
+    height: 200px;
     margin: 30px 10px 10px 10px;
     border: 1px solid #eee;
 
 }
 .section3 {
     width:30%;
-    height: 100px;
+    height: 200px;
     margin: 30px 10px 10px 10px;
     border: 1px solid #eee;
 }
