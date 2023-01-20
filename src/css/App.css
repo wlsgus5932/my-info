@@ -1,7 +1,7 @@
 .App {
   background-image: url('../../public/images/background.png');
   position:relative; 
-  min-height: 105vh;
+  min-height: 110vh;
   background-attachment: fixed;
   align-items: center;
   background-size: cover;
@@ -15,9 +15,11 @@
 }
 
 .career-div {
-  margin-top: 1000px;
 }
 
+.arrow-section {
+  margin-bottom: 10%;
+}
 
 
 

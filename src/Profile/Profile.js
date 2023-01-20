@@ -5,7 +5,7 @@ import { faSquareInstagram, faGithub, faAngledown, faInstagram } from "@fortawes
 import '../css/Profile.css';
 import Career from './Career';
 
-const Profile = ({parent}) => {
+const Profile = ({arrow}) => {
     const txt = "const ParkJinHyun = { ";
     const [Text, setText] = useState('');
     const [Count, setCount] = useState(0);
@@ -24,7 +24,6 @@ const handleScroll = () => {
 	// 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
     if(window.scrollY >= 30){
       setScroll(true);
-      parent();
     }
   };
   
@@ -42,8 +41,8 @@ const handleScroll = () => {
 
     useEffect(()=>{
         if(Count > 21) {
-            parent();
-        }}, [Count]);
+            arrow();
+    }}, [Count]);
       
     return (
         <div className='profile-introduce'>
@@ -111,12 +110,6 @@ const handleScroll = () => {
                     </li>
                 </ul>
                 </div>
-                { scroll ? '' : (
-                <div className='arrow-section'>
-                    <a><span></span><span></span></a>
-                </div>
-                )
-                }
             </div>
             ) : ''}
             </div>
