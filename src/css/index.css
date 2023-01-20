@@ -17,14 +17,14 @@ body {
 } */
 
 @media (min-width: 768px) {
-  html { font-size: 70%; }
+  html { font-size: 50%; }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+/* @media (min-width: 481px) and (max-width: 767px) {
   html { font-size: 60%; }
-}
+} */
   
-@media (min-width: 1px) and (max-width: 480px) {
+@media (min-width: 1px) and (max-width: 767px) {
   html { font-size: 50%; }
 }
 
