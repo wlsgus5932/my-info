@@ -135,23 +135,23 @@ ul > li > a {
 }
 
 .mobile-circle {
-    font-size: 10px;
+    font-size: 7px;
     color: #eee;
     cursor: pointer;
 }
 
 .mobile-circle2 {
-    font-size: 10px;
+    font-size: 7px;
     color: #eee;
     cursor: pointer;
 }
 
 .mobile-insta {
-    font-size: 20px;
+    font-size: 7px;
 }
 
 .mobile-git {
-    font-size: 20px;
+    font-size: 7px;
 }
 
 .insta :hover {
