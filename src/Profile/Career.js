@@ -11,7 +11,7 @@ const Career = () => {
         </section>
         <section className='section3'>준비중<br/><br/> 저는요// 목표
         <FontAwesomeIcon icon={faSquareInstagram} />
-        <FontAwesomeIcon icon={faGithub} /></section>
+        <FontAwesomeIcon icon={faGithub} />몰라</section>
     </div>
   );
 }

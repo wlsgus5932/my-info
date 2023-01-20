@@ -16,9 +16,7 @@ const App = () => {
           <Profile parent={parentFunction}/>
       </div>
       <div>
-        {profileChange ? 
-          (<Career/>) : ''
-        }
+          <Career/>
       </div>
     </div>
   );
