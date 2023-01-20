@@ -173,18 +173,6 @@ ul > li > a {
     .mobile-git {
         background-color: black;
     }
-    ul > li {
-        list-style-type: none;
-        border: 1px solid #eee;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        float: left;
-        line-height: 30px;
-        font-size: 20px;
-        margin-right: 10px;
-    }
-    
 }
 
 @media (min-width: 1px) and (max-width: 800px) {
