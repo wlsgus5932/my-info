@@ -82,6 +82,9 @@ const Profile = ({parent}) => {
                     <li onMouseEnter={() => setChangeClass('git')} className="mobile-git">
                         <a href="https://github.com/wlsgus5932" target={'_blank'}><FontAwesomeIcon icon={faGithub}/></a>
                     </li>
+                    <li onMouseEnter={() => setChangeClass('circle')} className="mobile-circle">
+                    tech
+                    </li>
                 </ul>
                 </section>
                 <div className='arrow-section'>
