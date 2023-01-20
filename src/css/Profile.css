@@ -2,18 +2,22 @@
     padding-top: 13vw;
     font-size: 1.7rem;
     font-weight: bold;
+    width: 100vw;
+    height: 100vh;
 }
 
 .my-profile {
     animation: fadein 2s;
-    display: inline-block;
-    width: 100%;
-    margin-left: 40%;
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 .profile-title {
-    width: 100%;
-    margin-left: 40%;
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+
 }
 
 .mint-text {
@@ -71,12 +75,6 @@
     color: #be795c;
 }
 
-.cursor {
-    color: white;
-    font-weight: 100;
-    animation: blink-effect 1s step-end infinite;
-}
-
 .remark {
     color: #6a9955;
     font-size: 2rem;
@@ -87,20 +85,13 @@
 	to { opacity: 1; }
 }
 
-@keyframes blink-effect {
-    50% {
-      opacity: 0;
-    }
-  }
-
-
 a {
     text-decoration-line: none;
 }
 a span {
   position: absolute;
   bottom: 5%;
-  left: 50%;
+  left: 45%;
   width: 24px;
   height: 24px;
   border-left: 1px solid #fff;
@@ -111,7 +102,6 @@ a span {
   animation: sdb 2s infinite;
   opacity: 0;
   box-sizing: border-box;
-  margin-left: -3%;
 }
 a span:nth-of-type(1) {
   -webkit-animation-delay: 0s;
@@ -163,7 +153,7 @@ ul > li {
     float:left;
     line-height: 30px;
     font-size: 10px;
-    margin-right: 1%;
+    margin-right: 10px;
 }
 
 ul > li > a {

@@ -31,7 +31,7 @@ const Profile = ({parent}) => {
             </div>
             )}
             {render ? (
-            <section className='my-profile'>
+            <div className='my-profile'>
                 <span className='blue-text'>const 
                     <span className='sky-blue-text'> ParkJinHyun </span>
                     <span className='white-text'>{'= {'}</span>
@@ -65,7 +65,7 @@ const Profile = ({parent}) => {
                     {'};'}
                 </span><br/><br/>
                 
-                <section className='hoisting-section'>
+                <div className='hoisting-section'>
                     {/* <span className='remark-text'>{" //중요"}</span><br/> */}
                     <span className='sky-blue-text'> ParkJinHyun.awesome  
                         <span className='white-text'>{' = '} 
@@ -89,11 +89,11 @@ const Profile = ({parent}) => {
                     click
                     </li>
                 </ul>
-                </section>
+                </div>
                 <div className='arrow-section'>
                     <a><span></span><span></span></a>
                 </div>
-            </section>
+            </div>
             ) : ''}
             </div>
     )
