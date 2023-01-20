@@ -2,19 +2,18 @@
     padding-top: 13vw;
     font-size: 1.7rem;
     font-weight: bold;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 3%;
-}
-.profile-title {
-    /* margin-left: 3vw; */
 }
 
 .my-profile {
     animation: fadein 2s;
     display: inline-block;
+    width: 100%;
+    margin-left: 40%;
+}
+
+.profile-title {
+    width: 100%;
+    margin-left: 40%;
 }
 
 .mint-text {
@@ -44,7 +43,8 @@
 
 .my-info {
     animation: fadein 5s;
-    margin-left: 10%;
+    width: 800px;
+    margin-left: 15px;
 }
 
 .hoisting-section {
@@ -111,6 +111,7 @@ a span {
   animation: sdb 2s infinite;
   opacity: 0;
   box-sizing: border-box;
+  margin-left: -3%;
 }
 a span:nth-of-type(1) {
   -webkit-animation-delay: 0s;
@@ -157,12 +158,12 @@ ul > li {
     list-style-type: none;
     border: 1px solid #eee;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     float:left;
-    line-height: 40px;
-    font-size: 20px;
-    margin-right: 5%;
+    line-height: 30px;
+    font-size: 10px;
+    margin-right: 1%;
 }
 
 ul > li > a {
