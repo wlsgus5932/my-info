@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareInstagram, faGithub, faAngledown, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import '../css/Profile.css';
+import Career from './Career';
 
 const Profile = ({parent}) => {
     const txt = "const ParkJinHyun = { ";
@@ -12,12 +13,12 @@ const Profile = ({parent}) => {
     const [changeClass, setChangeClass] = useState('');
     const [scroll, setScroll] = useState(false);
 
-// useEffect(() => {
-//     window.addEventListener('scroll', handleScroll);
-//     return () => {
-//       window.removeEventListener('scroll', handleScroll); //clean up
-//     };
-//   }, []);
+useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll); //clean up
+    };
+  }, []);
 
 const handleScroll = () => {
 	// 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
@@ -35,7 +36,6 @@ const handleScroll = () => {
         if(Count === txt.length)  {  // Count를 따로 두지 않고 Text.length 체크도 가능
             clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다
             setRender(true);
-            parent();
         }
         return () => clearInterval(interval); // 언마운트시 setInterval을 해제합니다
     })
