@@ -1,6 +1,5 @@
 .App {
   background-image: url('../../public/images/background.png');
-  
   position:relative; 
   min-height: 105vh;
   background-attachment: fixed;
@@ -13,6 +12,10 @@
 
 .remark-text {
   color: #6a9955;
+}
+
+.career-div {
+  margin-top: 1000px;
 }
 
 
