@@ -1,8 +1,9 @@
 import {useState, useEffect} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faSquareInstagram, faGithub, faAngledown, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import '../css/Profile.css';
+import Career from './Career';
 
 const Profile = ({arrow}) => {
     const txt = "const ParkJinHyun = { ";
@@ -12,15 +13,7 @@ const Profile = ({arrow}) => {
     const [changeClass, setChangeClass] = useState('');
     const [scroll, setScroll] = useState(false);
 
-// useEffect(() => {
-//     window.addEventListener('scroll', handleScroll);
-//     return () => {
-//       window.removeEventListener('scroll', handleScroll); //clean up
-//     };
-//   }, []);
-
 const handleScroll = () => {
-	// 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
     if(window.scrollY >= 30){
       setScroll(true);
     }
@@ -28,14 +21,21 @@ const handleScroll = () => {
   
     useEffect(()=>{
         const interval = setInterval(() => {
-            setText(Text + txt[Count]);
-            setCount(Count + 1);
+            setText(Text + txt[Count]); // 이전 set한 문자 + 다음 문자
+            setCount(Count + 1); // 개수 만큼 체크 
         }, 140);
-        if(Count === txt.length)  {
-            clearInterval(interval);
+        if(Count === txt.length)  {  // Count를 따로 두지 않고 Text.length 체크도 가능
+            clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다
             setRender(true);
-        } 
-        return () => clearInterval(interval);
+        }
+        return () => clearInterval(interval); // 언마운트시 setInterval을 해제합니다
+    })
+
+    
+    useEffect(() => {
+        if(Count) {
+            arrow();
+        }    
     })
 
     useEffect(()=>{
