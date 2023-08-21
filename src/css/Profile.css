@@ -146,26 +146,26 @@ ul > li > a {
     cursor: pointer;
 }
 
-.mobile-insta :hover {
-    background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
-}
 
-.mobile-git :hover {
-    background-color: black;
-}
-
-/* .circle :hover {
+.circle {
     background-color: #eee;
     color: black;
 }
 
-.circle2 :hover {
+.circle2  {
     background-color: rgb(241, 169, 68);
     color: rgb(48, 31, 3);
-} */
+}
 
+.mobile-insta {
+    background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
+}
+.mobile-git {
+    background-color: black;
+}
+/* 
 
-@media (min-width: 801px) and (max-width: 1200px) {
+@media (min-width: 801px) and (max-width: 1500px) {
     .profile-introduce { padding-top: 20%; }
     .mobile-insta {
         background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
@@ -207,4 +207,4 @@ ul > li > a {
 
 @media (min-width: 1px) and (max-width: 500px) {
     
-}
+} */
