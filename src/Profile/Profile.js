@@ -20,7 +20,6 @@ const Profile = ({arrow}) => {
 //   }, []);
 
 const handleScroll = () => {
-	// 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
     if(window.scrollY >= 30){
       setScroll(true);
     }
@@ -85,7 +84,6 @@ const handleScroll = () => {
                 </span><br/><br/>
                 
                 <div className='hoisting-section'>
-                    {/* <span className='remark-text'>{" //중요"}</span><br/> */}
                     <span className='sky-blue-text'> ParkJinHyun.awesome  
                         <span className='white-text'>{' = '} 
                             <span className='brown-text'>{" true;"}</span>
@@ -95,10 +93,10 @@ const handleScroll = () => {
                     {/* <span className='remark-text'>{" //더 알고 싶어요!!!"}</span> */}
                     {/* <a className='remark-text' onClick={parent}>{" click▼"}</a> */}
                 <ul className={changeClass}>
-                    <li onMouseEnter={() => setChangeClass('insta')} className="mobile-insta">
+                    <li className="mobile-insta">
                         <a href='https://www.instagram.com/jinhyun.dev/' target={'_blank'}><FontAwesomeIcon icon={faInstagram}/></a>
                     </li>  
-                    <li onMouseEnter={() => setChangeClass('git')} className="mobile-git">
+                    <li className="mobile-git">
                         <a href="https://github.com/wlsgus5932" target={'_blank'}><FontAwesomeIcon icon={faGithub}/></a>
                     </li>
                     <li onMouseEnter={() => setChangeClass('circle')} className="mobile-circle">

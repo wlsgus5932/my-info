@@ -7,7 +7,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
 }
 
 .remark-text {
@@ -17,9 +16,14 @@
 .career-div {
 }
 
+.introduce-div {
+  margin-top: 10%;
+}
+
 .arrow-section {
   margin-bottom: 10%;
 }
+
 
 
 
