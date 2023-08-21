@@ -163,7 +163,7 @@ ul > li > a {
 .mobile-git {
     background-color: black;
 }
-/* 
+
 
 @media (min-width: 801px) and (max-width: 1500px) {
     .profile-introduce { padding-top: 20%; }
@@ -207,4 +207,4 @@ ul > li > a {
 
 @media (min-width: 1px) and (max-width: 500px) {
     
-} */
+}
