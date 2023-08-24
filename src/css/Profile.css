@@ -166,7 +166,7 @@ ul > li > a {
 
 
 @media (min-width: 801px) and (max-width: 1500px) {
-    .profile-introduce { padding-top: 20%; }
+    .profile-introduce { padding-top: 15%; }
     .mobile-insta {
         background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
     }
@@ -176,7 +176,7 @@ ul > li > a {
 }
 
 @media (min-width: 1px) and (max-width: 800px) {
-    .profile-introduce { padding-top: 50%; }
+    .profile-introduce { padding-top: 30%; }
     .mobile-insta {
         background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
     }

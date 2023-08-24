@@ -68,13 +68,19 @@ const handleScroll = () => {
                     </span> <br/>
                     <span className='sky-blue-text'> skills : 
                         <span className='white-text'>{' ['} 
-                            <span className='brown-text'>{"'HTML', 'CSS', 'JavaScript', 'React', 'Vue', 'Spring', 'SpringBoot'"}</span>
+                            <span className='brown-text'>{" 'Java', 'Spring', 'SpringBoot', 'JPA', 'JavaScript' "}</span>
+                            <span className='white-text'>{' ],'}</span>
+                        </span>
+                    </span><br/>
+                    <span className='sky-blue-text'> sub_skills : 
+                        <span className='white-text'>{' ['} 
+                            <span className='brown-text'>{" 'React', 'Vue' "}</span>
                             <span className='white-text'>{' ],'}</span>
                         </span>
                     </span><br/>
                     <span className='sky-blue-text'> job : 
                         <span className='white-text'>{' ['} 
-                            <span className='brown-text'>{" 'developer'"}</span>
+                            <span className='brown-text'>{" 'Backend-developer'"}</span>
                             <span className='white-text'>{']'}</span>
                         </span>
                     </span><br/>
@@ -84,12 +90,12 @@ const handleScroll = () => {
                 </span><br/><br/>
                 
                 <div className='hoisting-section'>
-                    <span className='sky-blue-text'> ParkJinHyun.awesome  
+                    {/* <span className='sky-blue-text'> ParkJinHyun.awesome  
                         <span className='white-text'>{' = '} 
                             <span className='brown-text'>{" true;"}</span>
                             <span className="cursor">|</span>
                         </span>
-                    </span><br/><br/>
+                    </span><br/><br/> */}
                     {/* <span className='remark-text'>{" //더 알고 싶어요!!!"}</span> */}
                     {/* <a className='remark-text' onClick={parent}>{" click▼"}</a> */}
                 <ul className={changeClass}>
