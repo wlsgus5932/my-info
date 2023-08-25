@@ -41,10 +41,6 @@ const handleScroll = () => {
         if(Count > 21) {
             arrow();
     }}, [Count]);
-
-    useEffect(() => {
-        console.log('test');
-    })
       
     return (
         <div className='profile-introduce'>
