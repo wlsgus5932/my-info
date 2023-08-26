@@ -12,12 +12,11 @@ const App = () => {
   useEffect(() => {
       window.addEventListener('scroll', handleScroll);
       return () => {
-        window.removeEventListener('scroll', handleScroll); //clean up
+        window.removeEventListener('scroll', handleScroll);
       };
     }, []);
   
   const handleScroll = () => {
-    // 스크롤이 Top에서 50px 이상 내려오면 true값을 useState에 넣어줌
       if(window.scrollY >= 50) {
         setScroll(true);
         setArrowChange(false);
@@ -27,11 +26,9 @@ const App = () => {
     setArrowChange(!arrowChange);
   };
 
-
   return (
     <div className="App">
       <div>
-        {/* <Header/> */}
           <Profile arrow={arrowFunction}/>
       </div>
       <div className='arrow-section'>
@@ -40,9 +37,6 @@ const App = () => {
           <a><span></span><span></span></a>
           ) : ''}
       </div>
-      {/* <div className='introduce-div'>
-        <Introduce/>
-      </div> */}
       <div className='career-div'>
         {scroll ? 
           <Career/> : ''

@@ -12,13 +12,6 @@ const Profile = ({arrow}) => {
     const [changeClass, setChangeClass] = useState('');
     const [scroll, setScroll] = useState(false);
 
-// useEffect(() => {
-//     window.addEventListener('scroll', handleScroll);
-//     return () => {
-//       window.removeEventListener('scroll', handleScroll); //clean up
-//     };
-//   }, []);
-
 const handleScroll = () => {
     if(window.scrollY >= 30){
       setScroll(true);
