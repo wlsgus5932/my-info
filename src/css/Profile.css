@@ -7,7 +7,7 @@
 
 .my-profile {
     animation: fadein 2s;
-    width: 300px;
+    width: 400px;
     margin: auto;
 }
 
@@ -134,9 +134,11 @@ ul > li > a {
     color: white;
 }
 
-.mobile-circle {
-    font-size: 7px;
-    color: #eee;
+.mobile-velog {
+    font-size: 15px;
+    color: white;
+    background-color: #24cb9b;
+    /* background-image: url('../../public/images/velog.jpeg'); */
     cursor: pointer;
 }
 

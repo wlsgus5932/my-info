@@ -61,13 +61,13 @@ const handleScroll = () => {
                     </span> <br/>
                     <span className='sky-blue-text'> skills : 
                         <span className='white-text'>{' ['} 
-                            <span className='brown-text'>{" 'Java', 'Spring', 'SpringBoot', 'JPA', 'JavaScript' "}</span>
+                            <span className='brown-text'>{" 'Java', 'Spring', 'SpringBoot', 'JPA'"}</span>
                             <span className='white-text'>{' ],'}</span>
                         </span>
                     </span><br/>
-                    <span className='sky-blue-text'> sub_skills : 
+                    <span className='sky-blue-text'> sub-skills : 
                         <span className='white-text'>{' ['} 
-                            <span className='brown-text'>{" 'React', 'Vue' "}</span>
+                            <span className='brown-text'>{"'JS', 'React.js', 'Vue.js' "}</span>
                             <span className='white-text'>{' ],'}</span>
                         </span>
                     </span><br/>
@@ -89,8 +89,6 @@ const handleScroll = () => {
                             <span className="cursor">|</span>
                         </span>
                     </span><br/><br/> */}
-                    {/* <span className='remark-text'>{" //더 알고 싶어요!!!"}</span> */}
-                    {/* <a className='remark-text' onClick={parent}>{" click▼"}</a> */}
                 <ul className={changeClass}>
                     <li className="mobile-insta">
                         <a href='https://www.instagram.com/jinhyun.dev/' target={'_blank'}><FontAwesomeIcon icon={faInstagram}/></a>
@@ -98,8 +96,11 @@ const handleScroll = () => {
                     <li className="mobile-git">
                         <a href="https://github.com/wlsgus5932" target={'_blank'}><FontAwesomeIcon icon={faGithub}/></a>
                     </li>
-                    <li onMouseEnter={() => setChangeClass('circle')} className="mobile-circle">
-                    tech
+                    <li className="mobile-velog">
+                        <a href='https://velog.io/@wlsgus5932' target={'_blank'}>
+                            v
+                        </a>
+
                     </li>
                     <li onMouseEnter={() => setChangeClass('circle2')} className="mobile-circle2">
                     click
