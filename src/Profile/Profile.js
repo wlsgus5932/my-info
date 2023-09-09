@@ -91,7 +91,7 @@ const handleScroll = () => {
                     </span><br/><br/> */}
                 <ul className={changeClass}>
                     <li className="mobile-insta">
-                        <a href='https://www.instagram.com/jinhyun.dev/' target={'_blank'}><FontAwesomeIcon icon={faInstagram}/></a>
+                        <a href='https://www.instagram.com/jinhyun.co.kr/' target={'_blank'}><FontAwesomeIcon icon={faInstagram}/></a>
                     </li>  
                     <li className="mobile-git">
                         <a href="https://github.com/wlsgus5932" target={'_blank'}><FontAwesomeIcon icon={faGithub}/></a>
