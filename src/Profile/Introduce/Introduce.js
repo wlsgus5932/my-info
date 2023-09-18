@@ -4,10 +4,7 @@ const Introduce = () => {
 
       
     return (
-        <div className='introduce-layout'>
-            <h1 className='annotation-text'>/* self interview */</h1>
-            
-        </div>
+        <div></div>
     )
 }
 
